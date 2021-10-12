@@ -12,4 +12,9 @@ public class IndexController {
 //        model.addAttribute()
         return "index";
     }
+
+    @RequestMapping({"/oups"})
+    public String oupsHandler(){
+        return "notimplemented";
+    }
 }

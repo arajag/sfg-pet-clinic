@@ -11,10 +11,10 @@ public class Owner extends Person {
     @Column(name = "address")
     private String address;
 
-    @Column(name = "address")
+    @Column(name = "city")
     private String city;
 
-    @Column(name = "address")
+    @Column(name = "telephone")
     private String telephone;
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "owner")

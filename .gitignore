@@ -111,7 +111,7 @@ Desktop.ini
 ######################
 /bin/
 /deploy/
-/target/
+*/target
 
 ######################
 # Logs
@@ -140,4 +140,4 @@ Desktop.ini
 # ESLint
 ######################
 .eslintcache
-/target/
+
